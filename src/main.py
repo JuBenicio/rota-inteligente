@@ -13,6 +13,7 @@ def main():
     city = Graph()
 
     city.add_edge('A', 'B', 2)
+    city.add_edge('A', 'A', 0)
     city.add_edge('A', 'C', 4)
     city.add_edge('B', 'D', 3)
     city.add_edge('C', 'D', 1)
