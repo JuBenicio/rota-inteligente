@@ -127,7 +127,22 @@ python src/main.py
 pip install pandas scikit-learn
 python src/main.py
 
-10. Referências
+10. Outputs do Sistema
+
+Após a execução do projeto por meio do comando:
+python src/main.py
+O sistema apresenta no terminal:
+* Caminhos calculados pelos algoritmos BFS, DFS e A*;
+* Resultado da aplicação do algoritmo K-Means ao conjunto de dados entregas.csv;
+* Exibição dos clusters gerados para os pontos de entrega.
+Esses resultados comprovam o funcionamento correto dos algoritmos implementados e demonstram a aplicação prática dos conceitos de busca em grafos e aprendizado não supervisionado.
+
+Print da Execução
+Abaixo encontra-se a imagem contendo o output real do terminal após a execução do sistema:
+
+![Output do Terminal](docs/output_terminal.png)
+
+11. Referências
 
 UPS ORION – Wired (2013);
 
