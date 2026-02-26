@@ -124,7 +124,8 @@ pip install -r requirements.txt
 
 python src/main.py
 
-
+pip install pandas scikit-learn
+python src/main.py
 
 10. Referências
 
