@@ -127,7 +127,7 @@ Passos para executar o projeto:
 
 2. Instalar as dependências:
 
-pip install -r requirements.txt
+pip install pandas scikit-learn matplotlib
 
 
 3. Executar o projeto:
