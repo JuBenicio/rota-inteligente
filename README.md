@@ -78,6 +78,9 @@ Tempo estimado de entrega;
 
 Número de entregas por rota.
 
+### Visualização Gráfica dos Clusters
+
+![Gráfico dos Clusters](docs/grafico_clusters.png)
 
 7. Limitações e Sugestões de Melhoria
 
