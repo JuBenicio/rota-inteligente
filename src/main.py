@@ -1,6 +1,6 @@
 from graph import Graph
 from search_algorithms import bfs, dfs, a_star
-from clustering import cluster_deliveries
+from clustering import cluster_deliveries, plot_clusters
 
 
 # Heurística simples para o A*
@@ -29,6 +29,8 @@ def main():
 
     clusters = cluster_deliveries('data/entregas.csv', n_clusters=2)
     print(clusters)
+
+    plot_clusters(clusters)
 
 if __name__ == "__main__":
     main()
