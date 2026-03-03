@@ -120,6 +120,8 @@ Ajuste dinâmico do número de clusters.
 
 9. Instruções de Execução
 
+Passos para executar o projeto:
+
 1. Clonar o repositório;
 
 
@@ -130,9 +132,6 @@ pip install -r requirements.txt
 
 3. Executar o projeto:
 
-python src/main.py
-
-pip install pandas scikit-learn
 python src/main.py
 
 10. Outputs do Sistema
