@@ -1,5 +1,6 @@
 from sklearn.cluster import KMeans
 import pandas as pd
+import matplotlib.pyplot as plt
 
 def cluster_deliveries(csv_path, n_clusters=2):
     # Carrega os dados do arquivo CSV
@@ -15,3 +16,12 @@ def cluster_deliveries(csv_path, n_clusters=2):
     data['cluster'] = model.fit_predict(coords)
 
     return data
+
+def plot_clusters(data):
+    plt.figure()
+    plt.scatter(data['x'], data['y'], c=data['cluster'])
+    plt.title("Clusterização das Entregas")
+    plt.xlabel("Coordenada X")
+    plt.ylabel("Coordenada Y")
+    plt.savefig("docs/grafico_clusters.png")
+    plt.show()
