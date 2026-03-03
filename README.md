@@ -113,7 +113,9 @@ Ajuste dinâmico do número de clusters.
  ├── data/
  │   └── entregas.csv
  ├── docs/
- │   └── diagrama_grafo.png
+ │   ├── diagrama_grafo.png
+ │   ├── grafico_clusters.png
+ │   └── output_terminal.png
  ├── README.md
 
 9. Instruções de Execução
