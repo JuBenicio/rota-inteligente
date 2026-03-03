@@ -58,6 +58,9 @@ Arestas: ruas conectando os pontos;
 
 Pesos: distância ou tempo médio de deslocamento.
 
+### Representação Visual do Grafo
+
+![Diagrama do Grafo](docs/diagrama_grafo.png)
 
 Para fins didáticos e acadêmicos, o grafo utilizado neste projeto é uma abstração simplificada da cidade, representada por nós identificados por letras (A, B, C, etc.). Essa modelagem permite validar, testar e comparar o funcionamento dos algoritmos de busca e otimização de forma clara e objetiva.
 
